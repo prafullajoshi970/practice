@@ -34,7 +34,7 @@ function App() {
                 {data ? (
                  <div>
                  <div className="display">
-                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdUijW8Pl6X57WSf5jgv0q00gtqFw0w0saJw&usqp=CAU" alt="" className="image1"></img>
+                     {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdUijW8Pl6X57WSf5jgv0q00gtqFw0w0saJw&usqp=CAU" alt="" className="image1"></img> */}
                      <h1>City-{search}</h1>
                      <h1>{data.temp}°C</h1>
                      <div className="minmax">
